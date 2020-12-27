@@ -4,4 +4,11 @@ nav{
     padding: 15px;
     color: white;
     font-size: 20px;
+    margin: 0 auto; /* This is what centers it */
+    max-width: 1500px;
+    width: 96%;
+}
+
+img{
+    width: 300px;
 }
