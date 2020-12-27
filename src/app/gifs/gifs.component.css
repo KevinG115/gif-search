@@ -8,3 +8,12 @@
 .gif img{
     max-width: 250px;
 }
+
+.gif-grid-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+img{
+    cursor: pointer;
+}

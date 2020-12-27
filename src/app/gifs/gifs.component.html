@@ -1,5 +1,13 @@
-<div class="gifs">
+<!-- <div class="gifs">
     <div class="gif" *ngFor="let gif of gifs">
         <img [src]="gif.images.downsized.url" alt="images">
     </div>
+</div> -->
+
+<div class="gif-grid-container">
+    <mat-grid-list cols="4" rowHeight="2:1">
+        <mat-grid-tile *ngFor="let gif of gifs">
+            <img [src]="gif.images.downsized.url" (click)="copyToClipboard($event)" alt="images">
+        </mat-grid-tile>
+    </mat-grid-list>
 </div>

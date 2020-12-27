@@ -13,14 +13,14 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getTrendingGifs() {
-    return this.http.get('https://api.giphy.com/v1/gifs/trending?api_key=' + environment.giphyApiKey + '&limit=50')
+    return this.http.get('https://api.giphy.com/v1/gifs/trending?api_key=' + environment.giphyApiKey + '&limit=48')
       .subscribe((response: any) => {
         this.gifs.next(response.data);
       })
   }
 
   searchGifs(searchTerm: string) {
-    return this.http.get('https://api.giphy.com/v1/gifs/search?q=' + searchTerm + '&api_key=' + environment.giphyApiKey + '&limit=50')
+    return this.http.get('https://api.giphy.com/v1/gifs/search?q=' + searchTerm + '&api_key=' + environment.giphyApiKey + '&limit=48')
     .subscribe((response: any) => {
       this.gifs.next(response.data);
     })

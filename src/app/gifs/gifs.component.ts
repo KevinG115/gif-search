@@ -16,13 +16,18 @@ export class GifsComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.dataService.getTrendingGifs();
-    this.subscription = this.dataService.getGifs().subscribe((response:any) => {
+    this.subscription = this.dataService.getGifs().subscribe((response: any) => {
       this.gifs = response;
     })
   }
 
-  ngOnDestroy(){
+  ngOnDestroy() {
     this.subscription.unsubscribe();
   }
 
+
+  copyToClipboard(event: any) {
+    console.log(event);
+    alert("test");
+  }
 }
