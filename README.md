@@ -1,6 +1,21 @@
-# GifSearch
+# 
+<div style="text-align:center">
+<h1> GifFnder </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+</div>
+
+
+## Introduction
+
+<div style="padding-bottom:25px">
+ A small GIF search engine using the GIPHY api's. User's can search for a gif using the search input and copy the gif's URL to their clipboard simply by clicking on  the image
+ </div>
+
+<div style="text-align:center">
+<img src="src\assets\images\Gifnder_screenshot.png" width="500" height="250" />
+</div>
+<br/>
+
 
 ## Development server
 
@@ -13,15 +28,3 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
