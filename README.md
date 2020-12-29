@@ -7,14 +7,13 @@
 
 ## Introduction
 
-<div style="padding-bottom:25px">
  A small GIF search engine using the GIPHY api's. User's can search for a gif using the search input and copy the gif's URL to their clipboard simply by clicking on  the image
- </div>
 
-<div style="text-align:center">
+<p align="center">
 <img src="https://img1.wsimg.com/isteam/ip/dfda0829-54d9-496c-9ed5-9a6effd45acc/Gifnder.PNG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1023,cg:true" width="500" height="250" />
-</div>
-<br/>
+</p>
+
+
 
 
 ## Development server
