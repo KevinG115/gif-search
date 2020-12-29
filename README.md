@@ -12,7 +12,7 @@
  </div>
 
 <div style="text-align:center">
-<img src="src\assets\images\Gifnder_screenshot.PNG" width="500" height="250" />
+<img src="https://img1.wsimg.com/isteam/ip/dfda0829-54d9-496c-9ed5-9a6effd45acc/Gifnder.PNG/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1023,cg:true" width="500" height="250" />
 </div>
 <br/>
 
