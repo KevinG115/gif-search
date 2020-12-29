@@ -1,4 +1,4 @@
 <div class="search">
-  <p>Click an image to copy it</p>
-  <input type="text" placeholder="Search for GiF" #gif (keyup.enter)="search(gif.value)">
+  <p>Click an image to copy it's URL</p>
+  <input type="text" placeholder="Search for GiF's" #gif (keyup)="search($event, gif.value)">
 </div>

@@ -2,7 +2,7 @@
 <div class="gif-grid-container" (window:resize)="onResize($event.target.innerWidth)" >
     <mat-grid-list cols="{{columnNumber}}" rowHeight="2:1" >
         <mat-grid-tile *ngFor="let gif of gifs">
-            <img [src]="gif.images.downsized.url" (click)="copyToClipboard($event)" alt="images">
+            <img [src]="gif.images.downsized.url" (click)="copyToClipboard(gif.images.downsized.url)" alt="images">
         </mat-grid-tile>
     </mat-grid-list>
 </div>

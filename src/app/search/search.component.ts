@@ -13,9 +13,9 @@ export class SearchComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  search(searchTerm: string) {
-    if (searchTerm !== '') {
-      this.dataService.searchGifs(searchTerm);
+  search(event: any, gifValue: string) {
+    if (gifValue !== '' && event.code !== "Backspace") {
+      this.dataService.searchGifs(gifValue);
     }
   }
 

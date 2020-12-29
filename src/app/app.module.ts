@@ -13,7 +13,9 @@ import { CommonModule } from '@angular/common';
 // Material imports
 import { MatGridListModule } from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
-import {MatSnackBarModule} from '@angular/material/snack-bar'
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {ClipboardModule} from '@angular/cdk/clipboard';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import {MatSnackBarModule} from '@angular/material/snack-bar'
     BrowserAnimationsModule,
     MatGridListModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    NgbModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
